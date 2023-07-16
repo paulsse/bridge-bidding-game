@@ -1,0 +1,315 @@
+digraph {
+	chance [shape=triangle]
+	chance -> "a x" [label=0.25]
+	chance -> "a y" [label=0.25]
+	chance -> "b x" [label=0.25]
+	chance -> "b y" [label=0.25]
+	"a x" [label="a x
+" color=lightblue shape=circle style=filled]
+	"a x0" [label="a x
+0" color=lightgrey shape=square style=filled]
+	"a x" -> "a x0" [label=0 color=red fontcolor=red]
+	"a x00" [fontcolor=darkgreen shape=point xlabel=0]
+	"a x0" -> "a x00" [label=0 color=black fontcolor=black]
+	"a x01" [label="a x
+01" color=lightblue shape=circle style=filled]
+	"a x0" -> "a x01" [label=1 color=red fontcolor=red]
+	"a x010" [fontcolor=darkgreen shape=point xlabel=1]
+	"a x01" -> "a x010" [label=0 color=red fontcolor=red]
+	"a x012" [label="a x
+012" color=lightgrey shape=square style=filled]
+	"a x01" -> "a x012" [label=2 color=black fontcolor=black]
+	"a x0120" [fontcolor=darkgreen shape=point xlabel=-2]
+	"a x012" -> "a x0120" [label=0 color=red fontcolor=red]
+	"a x0123" [label="a x
+0123" color=lightblue shape=circle style=filled]
+	"a x012" -> "a x0123" [label=3 color=black fontcolor=black]
+	"a x01230" [fontcolor=darkgreen shape=point xlabel=3]
+	"a x0123" -> "a x01230" [label=0 color=black fontcolor=black]
+	"a x013" [label="a x
+013" color=lightgrey shape=square style=filled]
+	"a x01" -> "a x013" [label=3 color=black fontcolor=black]
+	"a x0130" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a x013" -> "a x0130" [label=0 color=red fontcolor=red]
+	"a x02" [label="a x
+02" color=lightblue shape=circle style=filled]
+	"a x0" -> "a x02" [label=2 color=black fontcolor=black]
+	"a x020" [fontcolor=darkgreen shape=point xlabel=2]
+	"a x02" -> "a x020" [label=0 color=red fontcolor=red]
+	"a x023" [label="a x
+023" color=lightgrey shape=square style=filled]
+	"a x02" -> "a x023" [label=3 color=black fontcolor=black]
+	"a x0230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a x023" -> "a x0230" [label=0 color=black fontcolor=black]
+	"a x03" [label="a x
+03" color=lightblue shape=circle style=filled]
+	"a x0" -> "a x03" [label=3 color=black fontcolor=black]
+	"a x030" [fontcolor=darkgreen shape=point xlabel=3]
+	"a x03" -> "a x030" [label=0 color=red fontcolor=red]
+	"a x1" [label="a x
+1" color=lightgrey shape=square style=filled]
+	"a x" -> "a x1" [label=1 color=black fontcolor=black]
+	"a x10" [fontcolor=darkgreen shape=point xlabel=-1]
+	"a x1" -> "a x10" [label=0 color=red fontcolor=red]
+	"a x12" [label="a x
+12" color=lightblue shape=circle style=filled]
+	"a x1" -> "a x12" [label=2 color=black fontcolor=black]
+	"a x120" [fontcolor=darkgreen shape=point xlabel=2]
+	"a x12" -> "a x120" [label=0 color=black fontcolor=black]
+	"a x123" [label="a x
+123" color=lightgrey shape=square style=filled]
+	"a x12" -> "a x123" [label=3 color=black fontcolor=black]
+	"a x1230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a x123" -> "a x1230" [label=0 color=black fontcolor=black]
+	"a x13" [label="a x
+13" color=lightblue shape=circle style=filled]
+	"a x1" -> "a x13" [label=3 color=black fontcolor=black]
+	"a x130" [fontcolor=darkgreen shape=point xlabel=3]
+	"a x13" -> "a x130" [label=0 color=black fontcolor=black]
+	"a x2" [label="a x
+2" color=lightgrey shape=square style=filled]
+	"a x" -> "a x2" [label=2 color=black fontcolor=black]
+	"a x20" [fontcolor=darkgreen shape=point xlabel=-2]
+	"a x2" -> "a x20" [label=0 color=red fontcolor=red]
+	"a x23" [label="a x
+23" color=lightblue shape=circle style=filled]
+	"a x2" -> "a x23" [label=3 color=black fontcolor=black]
+	"a x230" [fontcolor=darkgreen shape=point xlabel=3]
+	"a x23" -> "a x230" [label=0 color=black fontcolor=black]
+	"a x3" [label="a x
+3" color=lightgrey shape=square style=filled]
+	"a x" -> "a x3" [label=3 color=black fontcolor=black]
+	"a x30" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a x3" -> "a x30" [label=0 color=red fontcolor=red]
+	"a y" [label="a y
+" color=lightblue shape=circle style=filled]
+	"a y0" [label="a y
+0" color=lightgrey shape=square style=filled]
+	"a y" -> "a y0" [label=0 color=red fontcolor=red]
+	"a y00" [fontcolor=darkgreen shape=point xlabel=0]
+	"a y0" -> "a y00" [label=0 color=black fontcolor=black]
+	"a y01" [label="a y
+01" color=lightblue shape=circle style=filled]
+	"a y0" -> "a y01" [label=1 color=red fontcolor=red]
+	"a y010" [fontcolor=darkgreen shape=point xlabel=-1]
+	"a y01" -> "a y010" [label=0 color=red fontcolor=red]
+	"a y012" [label="a y
+012" color=lightgrey shape=square style=filled]
+	"a y01" -> "a y012" [label=2 color=black fontcolor=black]
+	"a y0120" [fontcolor=darkgreen shape=point xlabel=-2]
+	"a y012" -> "a y0120" [label=0 color=black fontcolor=black]
+	"a y0123" [label="a y
+0123" color=lightblue shape=circle style=filled]
+	"a y012" -> "a y0123" [label=3 color=red fontcolor=red]
+	"a y01230" [fontcolor=darkgreen shape=point xlabel=2]
+	"a y0123" -> "a y01230" [label=0 color=black fontcolor=black]
+	"a y013" [label="a y
+013" color=lightgrey shape=square style=filled]
+	"a y01" -> "a y013" [label=3 color=black fontcolor=black]
+	"a y0130" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a y013" -> "a y0130" [label=0 color=red fontcolor=red]
+	"a y02" [label="a y
+02" color=lightblue shape=circle style=filled]
+	"a y0" -> "a y02" [label=2 color=black fontcolor=black]
+	"a y020" [fontcolor=darkgreen shape=point xlabel=1]
+	"a y02" -> "a y020" [label=0 color=red fontcolor=red]
+	"a y023" [label="a y
+023" color=lightgrey shape=square style=filled]
+	"a y02" -> "a y023" [label=3 color=black fontcolor=black]
+	"a y0230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a y023" -> "a y0230" [label=0 color=black fontcolor=black]
+	"a y03" [label="a y
+03" color=lightblue shape=circle style=filled]
+	"a y0" -> "a y03" [label=3 color=black fontcolor=black]
+	"a y030" [fontcolor=darkgreen shape=point xlabel=2]
+	"a y03" -> "a y030" [label=0 color=red fontcolor=red]
+	"a y1" [label="a y
+1" color=lightgrey shape=square style=filled]
+	"a y" -> "a y1" [label=1 color=black fontcolor=black]
+	"a y10" [fontcolor=darkgreen shape=point xlabel=-1]
+	"a y1" -> "a y10" [label=0 color=black fontcolor=black]
+	"a y12" [label="a y
+12" color=lightblue shape=circle style=filled]
+	"a y1" -> "a y12" [label=2 color=red fontcolor=red]
+	"a y120" [fontcolor=darkgreen shape=point xlabel=1]
+	"a y12" -> "a y120" [label=0 color=black fontcolor=black]
+	"a y123" [label="a y
+123" color=lightgrey shape=square style=filled]
+	"a y12" -> "a y123" [label=3 color=black fontcolor=black]
+	"a y1230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a y123" -> "a y1230" [label=0 color=red fontcolor=red]
+	"a y13" [label="a y
+13" color=lightblue shape=circle style=filled]
+	"a y1" -> "a y13" [label=3 color=black fontcolor=black]
+	"a y130" [fontcolor=darkgreen shape=point xlabel=2]
+	"a y13" -> "a y130" [label=0 color=black fontcolor=black]
+	"a y2" [label="a y
+2" color=lightgrey shape=square style=filled]
+	"a y" -> "a y2" [label=2 color=black fontcolor=black]
+	"a y20" [fontcolor=darkgreen shape=point xlabel=-2]
+	"a y2" -> "a y20" [label=0 color=black fontcolor=black]
+	"a y23" [label="a y
+23" color=lightblue shape=circle style=filled]
+	"a y2" -> "a y23" [label=3 color=red fontcolor=red]
+	"a y230" [fontcolor=darkgreen shape=point xlabel=2]
+	"a y23" -> "a y230" [label=0 color=black fontcolor=black]
+	"a y3" [label="a y
+3" color=lightgrey shape=square style=filled]
+	"a y" -> "a y3" [label=3 color=black fontcolor=black]
+	"a y30" [fontcolor=darkgreen shape=point xlabel=-3]
+	"a y3" -> "a y30" [label=0 color=red fontcolor=red]
+	"b x" [label="b x
+" color=lightblue shape=circle style=filled]
+	"b x0" [label="b x
+0" color=lightgrey shape=square style=filled]
+	"b x" -> "b x0" [label=0 color=red fontcolor=red]
+	"b x00" [fontcolor=darkgreen shape=point xlabel=0]
+	"b x0" -> "b x00" [label=0 color=black fontcolor=black]
+	"b x01" [label="b x
+01" color=lightblue shape=circle style=filled]
+	"b x0" -> "b x01" [label=1 color=red fontcolor=red]
+	"b x010" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b x01" -> "b x010" [label=0 color=black fontcolor=black]
+	"b x012" [label="b x
+012" color=lightgrey shape=square style=filled]
+	"b x01" -> "b x012" [label=2 color=red fontcolor=red]
+	"b x0120" [fontcolor=darkgreen shape=point xlabel=-2]
+	"b x012" -> "b x0120" [label=0 color=red fontcolor=red]
+	"b x0123" [label="b x
+0123" color=lightblue shape=circle style=filled]
+	"b x012" -> "b x0123" [label=3 color=black fontcolor=black]
+	"b x01230" [fontcolor=darkgreen shape=point xlabel=2]
+	"b x0123" -> "b x01230" [label=0 color=red fontcolor=red]
+	"b x013" [label="b x
+013" color=lightgrey shape=square style=filled]
+	"b x01" -> "b x013" [label=3 color=black fontcolor=black]
+	"b x0130" [fontcolor=darkgreen shape=point xlabel=-3]
+	"b x013" -> "b x0130" [label=0 color=red fontcolor=red]
+	"b x02" [label="b x
+02" color=lightblue shape=circle style=filled]
+	"b x0" -> "b x02" [label=2 color=black fontcolor=black]
+	"b x020" [fontcolor=darkgreen shape=point xlabel=1]
+	"b x02" -> "b x020" [label=0 color=black fontcolor=black]
+	"b x023" [label="b x
+023" color=lightgrey shape=square style=filled]
+	"b x02" -> "b x023" [label=3 color=red fontcolor=red]
+	"b x0230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"b x023" -> "b x0230" [label=0 color=black fontcolor=black]
+	"b x03" [label="b x
+03" color=lightblue shape=circle style=filled]
+	"b x0" -> "b x03" [label=3 color=black fontcolor=black]
+	"b x030" [fontcolor=darkgreen shape=point xlabel=2]
+	"b x03" -> "b x030" [label=0 color=red fontcolor=red]
+	"b x1" [label="b x
+1" color=lightgrey shape=square style=filled]
+	"b x" -> "b x1" [label=1 color=black fontcolor=black]
+	"b x10" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b x1" -> "b x10" [label=0 color=red fontcolor=red]
+	"b x12" [label="b x
+12" color=lightblue shape=circle style=filled]
+	"b x1" -> "b x12" [label=2 color=black fontcolor=black]
+	"b x120" [fontcolor=darkgreen shape=point xlabel=1]
+	"b x12" -> "b x120" [label=0 color=black fontcolor=black]
+	"b x123" [label="b x
+123" color=lightgrey shape=square style=filled]
+	"b x12" -> "b x123" [label=3 color=black fontcolor=black]
+	"b x1230" [fontcolor=darkgreen shape=point xlabel=-3]
+	"b x123" -> "b x1230" [label=0 color=black fontcolor=black]
+	"b x13" [label="b x
+13" color=lightblue shape=circle style=filled]
+	"b x1" -> "b x13" [label=3 color=black fontcolor=black]
+	"b x130" [fontcolor=darkgreen shape=point xlabel=2]
+	"b x13" -> "b x130" [label=0 color=black fontcolor=black]
+	"b x2" [label="b x
+2" color=lightgrey shape=square style=filled]
+	"b x" -> "b x2" [label=2 color=black fontcolor=black]
+	"b x20" [fontcolor=darkgreen shape=point xlabel=-2]
+	"b x2" -> "b x20" [label=0 color=red fontcolor=red]
+	"b x23" [label="b x
+23" color=lightblue shape=circle style=filled]
+	"b x2" -> "b x23" [label=3 color=black fontcolor=black]
+	"b x230" [fontcolor=darkgreen shape=point xlabel=2]
+	"b x23" -> "b x230" [label=0 color=black fontcolor=black]
+	"b x3" [label="b x
+3" color=lightgrey shape=square style=filled]
+	"b x" -> "b x3" [label=3 color=black fontcolor=black]
+	"b x30" [fontcolor=darkgreen shape=point xlabel=-3]
+	"b x3" -> "b x30" [label=0 color=red fontcolor=red]
+	"b y" [label="b y
+" color=lightblue shape=circle style=filled]
+	"b y0" [label="b y
+0" color=lightgrey shape=square style=filled]
+	"b y" -> "b y0" [label=0 color=red fontcolor=red]
+	"b y00" [fontcolor=darkgreen shape=point xlabel=0]
+	"b y0" -> "b y00" [label=0 color=black fontcolor=black]
+	"b y01" [label="b y
+01" color=lightblue shape=circle style=filled]
+	"b y0" -> "b y01" [label=1 color=red fontcolor=red]
+	"b y010" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b y01" -> "b y010" [label=0 color=black fontcolor=black]
+	"b y012" [label="b y
+012" color=lightgrey shape=square style=filled]
+	"b y01" -> "b y012" [label=2 color=red fontcolor=red]
+	"b y0120" [fontcolor=darkgreen shape=point xlabel=2]
+	"b y012" -> "b y0120" [label=0 color=black fontcolor=black]
+	"b y0123" [label="b y
+0123" color=lightblue shape=circle style=filled]
+	"b y012" -> "b y0123" [label=3 color=red fontcolor=red]
+	"b y01230" [fontcolor=darkgreen shape=point xlabel=1]
+	"b y0123" -> "b y01230" [label=0 color=red fontcolor=red]
+	"b y013" [label="b y
+013" color=lightgrey shape=square style=filled]
+	"b y01" -> "b y013" [label=3 color=black fontcolor=black]
+	"b y0130" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b y013" -> "b y0130" [label=0 color=red fontcolor=red]
+	"b y02" [label="b y
+02" color=lightblue shape=circle style=filled]
+	"b y0" -> "b y02" [label=2 color=black fontcolor=black]
+	"b y020" [fontcolor=darkgreen shape=point xlabel=-2]
+	"b y02" -> "b y020" [label=0 color=black fontcolor=black]
+	"b y023" [label="b y
+023" color=lightgrey shape=square style=filled]
+	"b y02" -> "b y023" [label=3 color=red fontcolor=red]
+	"b y0230" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b y023" -> "b y0230" [label=0 color=black fontcolor=black]
+	"b y03" [label="b y
+03" color=lightblue shape=circle style=filled]
+	"b y0" -> "b y03" [label=3 color=black fontcolor=black]
+	"b y030" [fontcolor=darkgreen shape=point xlabel=1]
+	"b y03" -> "b y030" [label=0 color=red fontcolor=red]
+	"b y1" [label="b y
+1" color=lightgrey shape=square style=filled]
+	"b y" -> "b y1" [label=1 color=black fontcolor=black]
+	"b y10" [fontcolor=darkgreen shape=point xlabel=1]
+	"b y1" -> "b y10" [label=0 color=black fontcolor=black]
+	"b y12" [label="b y
+12" color=lightblue shape=circle style=filled]
+	"b y1" -> "b y12" [label=2 color=red fontcolor=red]
+	"b y120" [fontcolor=darkgreen shape=point xlabel=-2]
+	"b y12" -> "b y120" [label=0 color=black fontcolor=black]
+	"b y123" [label="b y
+123" color=lightgrey shape=square style=filled]
+	"b y12" -> "b y123" [label=3 color=black fontcolor=black]
+	"b y1230" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b y123" -> "b y1230" [label=0 color=red fontcolor=red]
+	"b y13" [label="b y
+13" color=lightblue shape=circle style=filled]
+	"b y1" -> "b y13" [label=3 color=black fontcolor=black]
+	"b y130" [fontcolor=darkgreen shape=point xlabel=1]
+	"b y13" -> "b y130" [label=0 color=black fontcolor=black]
+	"b y2" [label="b y
+2" color=lightgrey shape=square style=filled]
+	"b y" -> "b y2" [label=2 color=black fontcolor=black]
+	"b y20" [fontcolor=darkgreen shape=point xlabel=2]
+	"b y2" -> "b y20" [label=0 color=black fontcolor=black]
+	"b y23" [label="b y
+23" color=lightblue shape=circle style=filled]
+	"b y2" -> "b y23" [label=3 color=red fontcolor=red]
+	"b y230" [fontcolor=darkgreen shape=point xlabel=1]
+	"b y23" -> "b y230" [label=0 color=black fontcolor=black]
+	"b y3" [label="b y
+3" color=lightgrey shape=square style=filled]
+	"b y" -> "b y3" [label=3 color=black fontcolor=black]
+	"b y30" [fontcolor=darkgreen shape=point xlabel=-1]
+	"b y3" -> "b y30" [label=0 color=red fontcolor=red]
+}
